@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10sp"
+        android:paddingBottom="25sp"
+        android:text="@string/title_label"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@id/table"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.046"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TableLayout
+        android:id="@+id/table"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="20sp"
+            android:paddingTop="20sp"
+            android:paddingBottom="20sp">
+
+            <TextView
+                android:id="@+id/sub1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sub1_label" />
+
+            <TextView
+                android:id="@+id/subt1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="100sp"
+                android:paddingLeft="100sp"
+                android:paddingEnd="20sp"
+                android:paddingRight="20sp"
+                android:text="@string/subt1_label" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="20sp"
+            android:paddingTop="20sp"
+            android:paddingBottom="20sp">
+
+            <TextView
+                android:id="@+id/sub2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sub2_label" />
+
+            <TextView
+                android:id="@+id/subt2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="100sp"
+                android:paddingLeft="100sp"
+                android:paddingEnd="20sp"
+                android:paddingRight="20sp"
+                android:text="@string/subt2_label" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="20sp"
+            android:paddingTop="20sp"
+            android:paddingBottom="20sp">
+
+            <TextView
+                android:id="@+id/sub3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sub3_label" />
+
+            <TextView
+                android:id="@+id/subt3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="100sp"
+                android:paddingLeft="100sp"
+                android:paddingEnd="20sp"
+                android:paddingRight="20sp"
+                android:text="@string/subt3_label" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="398dp"
+            android:layout_height="47dp"
+            android:padding="20sp"
+            android:paddingTop="20sp"
+            android:paddingBottom="20sp">
+
+            <TextView
+                android:id="@+id/sub4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sub4_label" />
+
+            <TextView
+                android:id="@+id/subt4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="100sp"
+                android:paddingLeft="100sp"
+                android:paddingEnd="20sp"
+                android:paddingRight="20sp"
+                android:text="@string/subt4_label" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="20sp"
+            android:paddingTop="20sp"
+            android:paddingBottom="20sp">
+
+            <TextView
+                android:id="@+id/sub5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sub1_label" />
+
+            <TextView
+                android:id="@+id/subt5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="100sp"
+                android:paddingLeft="100sp"
+                android:paddingEnd="20sp"
+                android:paddingRight="20sp"
+                android:text="@string/subt5_label" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="20sp"
+            android:paddingTop="20sp"
+            android:paddingBottom="20sp">
+
+            <TextView
+                android:id="@+id/sub6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sub2_label" />
+
+            <TextView
+                android:id="@+id/subt6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="100sp"
+                android:paddingLeft="100sp"
+                android:paddingEnd="20sp"
+                android:paddingRight="20sp"
+                android:text="@string/subt6_label" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="20sp"
+            android:paddingTop="20sp"
+            android:paddingBottom="20sp">
+
+            <TextView
+                android:id="@+id/sub7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sub3_label" />
+
+            <TextView
+                android:id="@+id/subt7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="100sp"
+                android:paddingLeft="100sp"
+                android:paddingEnd="20sp"
+                android:paddingRight="20sp"
+                android:text="@string/subt7_label" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="398dp"
+            android:layout_height="47dp"
+            android:padding="20sp"
+            android:paddingTop="20sp"
+            android:paddingBottom="20sp">
+
+            <TextView
+                android:id="@+id/sub8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sub4_label" />
+
+            <TextView
+                android:id="@+id/subt8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="100sp"
+                android:paddingLeft="100sp"
+                android:paddingEnd="20sp"
+                android:paddingRight="20sp"
+                android:text="@string/subt8_label" />
+        </TableRow>
+
+    </TableLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
